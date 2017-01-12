@@ -1,0 +1,11 @@
+.cell{
+  border: 1px solid silver;
+  float: left;
+}
+.active{
+  filter: brightness(75%);
+}
+.info{
+  margin: 10px;
+  font-weight: bold;
+}
