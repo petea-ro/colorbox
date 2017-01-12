@@ -188,10 +188,9 @@ class App extends Component {
     return moves;
   }
   setStyles(){
-    var width = document.getElementById('container').offsetWidth;;
+    var width = document.getElementById('root').offsetWidth;
     var cellWidth = Math.min(width/conf.cols, 60);
     var styles = ".cell{width:"+cellWidth+"px;height:"+cellWidth+"px;}";
-
     conf.colors.forEach( (color) => {
       styles += "."+color+"{background:"+color+";}";
     })
