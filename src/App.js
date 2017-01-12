@@ -211,7 +211,7 @@ class App extends Component {
             <span className="info">Points: {this.state.points.toLocaleString()}</span>
           </p>
           {this.state.moves === 0 
-              ? <div className="alert alert-danger">Game Ended! Click on New Game</div> 
+              ? <div className="alert alert-danger">Game Over! Click on New Game</div> 
               :''
           }
           <CellsTable 
