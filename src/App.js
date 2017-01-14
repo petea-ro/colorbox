@@ -19,7 +19,7 @@ class App extends Component {
       countClicks:0,
       siblings: [],
       points: 0,
-      moves: ''
+      moves: 0
     });    
   }
   componentDidMount(){    
@@ -42,7 +42,7 @@ class App extends Component {
       matrix:matrix,
       countClicks:0,
       points: 0,
-      moves: ''
+      moves: '0'
     })
     return matrix;
   }
@@ -210,7 +210,7 @@ class App extends Component {
             <span className="info">Points: {this.state.points.toLocaleString()}</span>
           </p>
           {this.state.moves === 0 
-              ? <div className="alert alert-danger">Game Over! Click on New Game</div> 
+              ? <div className="alert alert-danger alert-finish">Game Over! Click on New Game</div> 
               :''
           }
           <CellsTable 

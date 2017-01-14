@@ -2,4 +2,18 @@ body {
   margin: 10px 0;
   padding: 0;
   font-family: sans-serif;
+  background: #fff0f5;
+}
+.container{
+	max-width: 800px;
+}
+
+
+.alert-finish{
+  position: absolute;
+  top: 20%;
+  padding: 30px 10px;
+  text-align: center;
+  margin:0 25%;
+  width: 50%;
 }
