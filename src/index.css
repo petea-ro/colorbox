@@ -12,8 +12,8 @@ body {
 .alert-finish{
   position: absolute;
   top: 20%;
-  padding: 30px 10px;
-  text-align: center;
-  margin:0 5%;
-  width: 50%;
+  left: 45%;
+  margin-left: -150px;  
+  padding: 30px;
+  font-weight: bold;
 }
